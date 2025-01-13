@@ -4,8 +4,8 @@ use Net::Ping;
 use Try::Tiny;
 use arybase;
 use Cwd;
-use Control::CLI;
-use threads;
+use Control::CLI
+use threads;;
 use Data::Dumper;
 $| = 1;
 my $dir = getcwd;
