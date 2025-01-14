@@ -15,7 +15,6 @@ $p = Net::Ping->new();
 use File::Path;
 my $directory = "temp";
 rmtree([$directory]);
-var "temp ver"
 mkdir $directory;
 #-----------------------------------------dir----------------------------------------------
 $inputdir= "$dir1".'\input.txt'; #input Directory
