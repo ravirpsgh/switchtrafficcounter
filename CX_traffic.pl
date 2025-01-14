@@ -4,6 +4,7 @@ use Net::Ping;
 use Try::Tiny;
 use arybase;
 use Cwd;
+var "temp used 2:os remote"
 use Control::CLI
 use threads;;
 use Data::Dumper;
