@@ -16,6 +16,7 @@ use File::Path;
 my $directory = "temp";
 var "temp ver change 1:37"
 rmtree([$directory]);
+var "temp ver change 1:40"
 mkdir $directory;
 #-----------------------------------------dir----------------------------------------------
 $inputdir= "$dir1".'\input.txt'; #input Directory
