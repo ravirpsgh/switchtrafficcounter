@@ -14,7 +14,6 @@ $p = Net::Ping->new();
 #-----------------------------------------dir----------------------------------------------
 use File::Path;
 my $directory = "temp";
-var "temp ver change 1:37"
 rmtree([$directory]);
 var "temp ver change 1:40"
 mkdir $directory;
